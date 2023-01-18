@@ -31,3 +31,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 npm install flatpickr angularx-flatpickr
 
 ng add @ng-bootstrap/ng-bootstrap
+
+url: https://maxuber79.github.io/test-fullcalendarangular/
