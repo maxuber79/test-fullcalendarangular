@@ -101,7 +101,7 @@
 	</table>
 </div>
 <div class="col-12">
-	<pre>{{ events[0].color?.primary | json }}</pre>
+	<pre>{{ events | json }}</pre>
 </div>
 
 <ng-template #modalContent let-close="close">
@@ -114,11 +114,11 @@
 	<div class="modal-body">
 		<div>
 			Action:
-			<pre>{{ modalData?.action }}</pre>
+			<pre>{{ modalData.action }}</pre>
 		</div>
 		<div>
 			Event:
-			<pre>{{ modalData?.event | json }}</pre>
+			<pre>{{ modalData.event | json }}</pre>
 		</div>
 	</div>
 	<div class="modal-footer">
